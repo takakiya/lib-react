@@ -1,0 +1,18 @@
+// regerding webpack node_modules install
+npm install -D typescript@4.3.5 ts-loader@9.2.5 webpack@5.50.0 webpack-cli@4.7.2
+
+// serve install
+ npm install -D serve@12.0.0
+
+//regerding react package
+npm install react@17.0.2 react-dom@17.0.2 styled-components@5.3.0
+
+// definitions files
+npm install -D @types/react@17.0.17 @types/react-dom@17.0.9 @types/styled-components@5.1.12
+
+// outout tsconfig.json 
+tsc --init
+
+
+
+ //  "test": "echo \"Error: no test specified\" && exit 1"
