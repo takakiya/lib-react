@@ -1,6 +1,7 @@
 import { Text } from './libs/Text';
 import { Heading } from './libs/Heading';
 import { Button } from './libs/Button';
+import { Textarea } from './libs/Testarea';
 
 export const App = () => {
   return (
@@ -26,6 +27,8 @@ export const App = () => {
         title="Button"
         type="error"
       />
+
+      <Textarea width={500} maxLength={100} />
     </>
   );
 };
