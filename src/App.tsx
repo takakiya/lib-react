@@ -2,6 +2,8 @@ import { Text } from './libs/Text';
 import { Heading } from './libs/Heading';
 import { Button } from './libs/Button';
 import { Textarea } from './libs/Testarea';
+import { Input } from './libs/Input';
+import { PasswordForm } from './libs/PasswordForm';
 
 export const App = () => {
   return (
@@ -29,6 +31,10 @@ export const App = () => {
       />
 
       <Textarea width={500} maxLength={100} />
+
+      <Input type='text' />
+
+      <PasswordForm onSubmit={(password) => console.log(password)} />
     </>
   );
 };
